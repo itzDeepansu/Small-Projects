@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+:root {
+    --custom-bg-color: #5f3b3b; /* Red color, you can change it as per your preference */
+}
+:root[data-theme="Dark"] {
+    --custom-bg-color: #1E293B; /* Red color, you can change it as per your preference */
+    --custom-text-color: #ffffff;
+}
+:root[data-theme="Light"] {
+    --custom-bg-color: #ffffff; /* Red color, you can change it as per your preference */
+    --custom-text-color: #000000;
+}
+ 
+

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    color: white;
+    font-family: "Work Sans", sans-serif;
+}
+.bgyellow{
+    background-color: #ffb703;
+}
+.bgimg{
+    background-image: url("./assets/new.jpg");
+}
+.glass{
+    backdrop-filter: blur(40px);
+}
